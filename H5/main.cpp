@@ -22,7 +22,7 @@ int main()
     int b = 6;
     refA = b;
     pointerA = &b;
-    cout << "refA:n (eli a:n) uusi arvo (b:n sijoituksen jalkeen): " << refA << endl;
+    cout << "refA:n uusi arvo: " << refA << endl;
     cout << "pointerA osoittaa nyt b:n osoitteeseen: " << pointerA << endl;
 
     cout << "\nOlio argumenttina" << endl;
